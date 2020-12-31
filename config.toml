@@ -1,0 +1,8 @@
+baseURL = "https://novak.org/"
+languageCode = "en-us"
+title = "Michael Novak"
+
+[params.favicon.color]
+    mask = "#ff7882"
+    msapplication = "#ff7882"
+    theme = "#ff7882"

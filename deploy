@@ -1,0 +1,10 @@
+#!/bin/sh
+
+USER=mrn
+HOST=novak.org
+DIR=/var/www/novak.org/html
+
+hugo && rsync -avz --delete public/ ${USER}@${HOST}:${DIR}
+
+exit 0
+
