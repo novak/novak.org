@@ -21,7 +21,7 @@ jobs:
 
       - name: Build hugo app
         run: |
-          apt install hugo
+          sudo apt install -y hugo
           hugo
           cd public
           zip -r /tmp/blog.zip .
