@@ -38,7 +38,7 @@ header nav ul {
   position: relative;
   display: inline-block;
   margin: 0;
-  padding-right: 8px;
+  padding-right: 0px;
   list-style: none;
   list-style-image: none;
   line-height: 50px;
