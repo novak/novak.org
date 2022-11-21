@@ -138,3 +138,13 @@ blockquote {
   font-style: italic;
   color: rgb(235, 187, 255);
 }
+
+.footnotes {
+  font-size: 11px;
+  text-align: left;
+}
+
+.footnote-ref {
+  font-weight: 700;
+  color: rgb(187, 218, 255);
+}
