@@ -3,6 +3,6 @@ languageCode = "en-us"
 title = "Michael Novak"
 
 [params.favicon.color]
-    mask = "#ff7882"
+    mask = "#001c40"
     msapplication = "#ff7882"
-    theme = "#ff7882"
+    theme = "#001c40"
