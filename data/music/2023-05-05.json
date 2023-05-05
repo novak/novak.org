@@ -1,0 +1,92 @@
+[
+    {
+        "artist_name": "Fred again.. & Brian Eno",
+        "track_name": "I Saw You",
+        "artwork_url": "https://i.scdn.co/image/ab67616d00001e02a9b0cf4827dd4bc73f2f0699",
+        "spotify_url": "https://open.spotify.com/track/4LYwnQN8yP032iEZLHpN6g?si=ef73f45ef4284999&nd=1",
+        "apple_music_url": "https://music.apple.com/us/album/i-saw-you/1677345068?i=1677345328",
+        "genre": "electronic",
+        "comment": "Two incredibly interesting electronic artists coming together to make an album. From a Fred again.. perspective this feels like The Chainsmokers Lo-fi remixes. I'm really into this collab."
+    },
+    {
+        "artist_name": "Ed Sheeran",
+        "track_name": "End Of Youth",
+        "artwork_url": "https://i.scdn.co/image/ab67616d00001e020c9eb65b86f67a2e01059c87",
+        "spotify_url": "https://open.spotify.com/track/0vber253Le8WWt7gKorVe9?si=0bdc862540d449f8&nd=1",
+        "apple_music_url": "https://music.apple.com/us/album/end-of-youth/1673804537?i=1673804914",
+        "genre": "pop",
+        "comment": "Ed Sheeran is out with a new album today, and this track brings more of his personal side. He kicked off the last album with Tides, and you could feel the emotion not only in the lyrics but the music as well. End Of Youth is picking up right where Tides left off. His talent is incredible."
+    },
+    {
+        "artist_name": "Icona Pop & Yaeger",
+        "track_name": "Shit We Do For Love",
+        "artwork_url": "https://i.scdn.co/image/ab67616d00001e02c1602e846021e3f16cb51afc",
+        "spotify_url": "https://open.spotify.com/track/2bIxNWvnynGGNq87gMbNcn?si=babeafdf90824f28&nd=1",
+        "apple_music_url": "https://music.apple.com/us/album/shit-we-do-for-love-single/1683936349",
+        "genre": "electronic",
+        "comment": "The beat on this track is awesome. Fast paced and catchy."
+    },
+    {
+        "artist_name": "Galantis, JVKE, Enisa",
+        "track_name": "Fool 4 U (feat. Enisa)",
+        "artwork_url": "https://i.scdn.co/image/ab67616d00001e02b14bc4f7ebd3bd954e872c56",
+        "spotify_url": "https://open.spotify.com/track/41aBRoaTTz9qq8UGIlykiZ?si=b101cfa3ee7e418e&nd=1",
+        "apple_music_url": "https://music.apple.com/us/album/fool-4-u-feat-enisa/1681901062?i=1681901077",
+        "genre": "electronic",
+        "comment": "This song is real catchy and has some awesome beats. A good blend of pop and electronic."
+    },
+    {
+        "artist_name": "Chet Faker",
+        "track_name": "Something Like This",
+        "artwork_url": "https://i.scdn.co/image/ab67616d00001e028264a2b41940afc2ce3610db",
+        "spotify_url": "https://open.spotify.com/track/2Xn7cHKdRP0hBXaUr38J7R?si=be88fb19a3234c6f&nd=1",
+        "apple_music_url": "https://music.apple.com/us/album/something-like-this/1682463589?i=1682463598",
+        "genre": "electronic",
+        "comment": "Chet Faker has been bringing some amazing funk inspired electronic music and this is no different. The raw vocals accompanied by electronic funk is an amazing combo."
+    },
+    {
+        "artist_name": "The Smashing Pumpkins",
+        "track_name": "Fireflies",
+        "artwork_url": "https://i.scdn.co/image/ab67616d00001e02faf7a235b8a2c30f94bc05bb",
+        "spotify_url": "https://open.spotify.com/track/2Pb1ekr2pXVYEMER3rNcIa?si=040a31c7f8d845e3&nd=1",
+        "apple_music_url": "https://music.apple.com/us/album/fireflies/1644219042?i=1644222002",
+        "genre": "rock... opera",
+        "comment": "When you've had a career like The Smashing Pumpkins what's left to do? This sound is honestly impressive and there's 3 discs of music here. There's a whole story to the music, it is a pretty elaborate production. After all, this is billed as a rock opera in three acts."
+    },
+    {
+        "artist_name": "Balance And Composure",
+        "track_name": "Savior Mode",
+        "artwork_url": "https://i.scdn.co/image/ab67616d00001e027b7f5d6748b474375958b780",
+        "spotify_url": "https://open.spotify.com/track/0G6fFMKdbf7fI3S1gLHSRK",
+        "apple_music_url": "https://music.apple.com/us/album/savior-mode/1678333948?i=1678333954",
+        "genre": "emo",
+        "comment": "This track has been in my heavy rotation, kind of reminds me of a grunge/shoegaze inspired emo song."
+    },
+    {
+        "artist_name": "The Band CAMINO",
+        "track_name": "What Am I Missing?",
+        "artwork_url": "https://i.scdn.co/image/ab67616d00001e02309e88f2d62917dade7dbb99",
+        "spotify_url": "https://open.spotify.com/track/1UhP3hxXqqKwrOedzSKFfE?si=66f027f033d84484",
+        "apple_music_url": "https://music.apple.com/us/album/what-am-i-missing/1681078596?i=1681078602",
+        "genre": "pop",
+        "comment": "This band has some incredible range. This is a slightly edgy pop track, highly recommend exploring their other music too."
+    },
+    {
+        "artist_name": "Drake",
+        "track_name": "Search & Rescue",
+        "artwork_url": "https://i.scdn.co/image/ab67616d00001e02cace8a4b2ff924c9e12e3a96",
+        "spotify_url": "https://open.spotify.com/track/7aRCf5cLOFN1U7kvtChY1G?si=ef7de083bce64af6d84484&nd=1",
+        "apple_music_url": "https://music.apple.com/us/album/search-rescue/1681131987?i=1681131989",
+        "genre": "rap",
+        "comment": "Feel like this is one of those you love or hate. I happen to love it. It is pretty mellow Drake, but in that catchy way that Drake masters."
+    },
+    {
+        "artist_name": "The Chainsmokers & 347aidan",
+        "track_name": "Up & Down",
+        "artwork_url": "https://i.scdn.co/image/ab67616d00001e027a6f897bac5bb4137f753bbf",
+        "spotify_url": "https://open.spotify.com/track/2R7xKsStJ9hNeZKoD9W5Nv?si=818067cf6b4343dd",
+        "apple_music_url": "https://music.apple.com/us/album/up-down/1682065463?i=1682065466",
+        "genre": "pop",
+        "comment": "This one has a good beat and the tik toks for this track are hilarious."
+    }
+]

@@ -1,0 +1,23 @@
+<div class="music-track">
+    {{ $file := .Get "tracks" }}
+    {{ $item := .Get "item" }}
+    {{ $json := getJSON $file }}
+    
+    {{ $track := index $json $item }}
+
+    <div class="flex-container">
+        <div class="flex-child">
+            <img src="{{$track.artwork_url}}" class="album-art" />
+        </div>
+        <div class="flex-child track-details">
+            <p class="track-name">{{$track.track_name}}</p>
+            <p class="track-artist">{{$track.artist_name}}</p>
+            <p class="track-genre">{{$track.genre}}</p>
+            <p class="track-links">
+                <a class="streaming-button" rel="me" href="{{$track.spotify_url}}"><i class="fab fa-brands fa-spotify"></i> Listen on Spotify</a>
+                <a class="streaming-button" rel="me" href="{{$track.apple_music_url}}"><i class="fab fa-brands fa-apple"></i> Listen on Apple Music</a>
+            </p>
+        </div>
+    </div>
+    <p class="track-comment-lg">{{$track.comment}}</p>
+</div>

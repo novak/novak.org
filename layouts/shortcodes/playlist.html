@@ -1,0 +1,19 @@
+<div class="playlist">
+    {{ $file := .Get "playlist" }}
+    {{ $playlist := getJSON $file }}
+
+    <div class="flex-container">
+        <div class="flex-child">
+            <img src="{{$playlist.artwork_url}}" class="album-art" />
+        </div>
+        <div class="flex-child track-details">
+            <p class="track-name">{{$playlist.name}}</p>
+            <p class="track-artist">{{$playlist.user}}</p>
+            <p class="track-genre">{{$playlist.description}}</p>
+            <p class="track-links">
+                <a class="streaming-button" rel="me" href="{{$playlist.spotify_url}}"><i class="fab fa-brands fa-spotify"></i> Listen on Spotify</a>
+                <a class="streaming-button" rel="me" href="{{$playlist.apple_music_url}}"><i class="fab fa-brands fa-apple"></i> Listen on Apple Music</a>
+            </p>
+        </div>
+    </div>
+</div>

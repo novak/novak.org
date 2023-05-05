@@ -80,6 +80,12 @@ h2 {
   margin-bottom: 0px;
 }
 
+h3 {
+  font-family: "Libre Baskerville", monospace;
+  font-size: 28px;
+  margin-bottom: 0px;
+}
+
 article {
   font-family: "Libre Baskerville", serif;
   font-size: 16px;
@@ -87,8 +93,10 @@ article {
 
 hr {
   border: 0;
-  width: 50%;
+  width: 75%;
   height: 1px;
+  margin-top: 32px;
+  margin-bottom: 32px;
   background: rgb(187, 218, 255);
 }
 
@@ -147,4 +155,101 @@ blockquote {
 .footnote-ref {
   font-weight: 700;
   color: rgb(187, 218, 255);
+}
+
+.music-track {
+  padding: 8px;
+}
+
+.album-art {
+  border-radius: 8px;
+  width: 160px;
+  height: 160px;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.track-details {
+  text-align: left;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.track-name {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: "Libre Baskerville", monospace;
+  font-size: 28px;
+}
+
+.track-artist {
+  margin-top: -24px;
+  font-family: "Libre Baskerville", monospace;
+  font-size: 18px;
+  color: rgb(255, 120, 130);
+}
+
+.track-links {
+  margin-top: 34px;
+}
+
+.track-comment {
+  padding-top: -10px;
+}
+
+.streaming-button {
+  border-radius: 24px;
+  background-color: rgb(0, 28, 64);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+}
+
+.listen-link {
+  font-size: 24px;
+  font-family: "Roboto Mono", monospace;
+}
+
+.flex-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-child:first-child {
+  margin-right: 16px;
+}
+
+.track-genre {
+  margin-top: -14px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 991px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .track-details {
+    text-align: center;
+  }
+
+  .album-art {
+    width: 240px;
+    height: 240px;
+  }
+
+  .track-links {
+    align-items: center;
+    margin-top: -8px;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .streaming-button {
+    margin-bottom: 8px;
+  }
 }
