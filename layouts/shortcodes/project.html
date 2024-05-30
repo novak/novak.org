@@ -1,0 +1,59 @@
+{{ $name := .Get "name" }}
+{{ $link := .Get "link" }}
+{{ $logo := .Get "logo" }}
+{{ $detail := .Get "detail" }}
+
+<style>
+  .project-link {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 3rem;
+    color: inherit !important;
+  }
+
+  .project-link__link {
+    text-decoration: none;
+    color: inherit !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .project-link__link:hover {
+    text-decoration: none;
+  }
+
+  .project-link__logo {
+    margin-right: 2rem;
+  }
+
+  .project-link__name {
+    margin: 0;
+    padding: 0;
+    font-weight: 200;
+    font-size: 2.5rem;
+    color: inherit !important;
+  }
+
+  .project-link__description {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+  }
+</style>
+
+<div class="project-link">
+  <a href="{{$link}}" class="project-link__link">
+    <img src="{{$logo}}" alt="{{$name}}" class="project-link__logo" width="100" height="100" />
+    <div className="project-link__details">
+      <p class="project-link__name">{{$name}}</p>
+      <p class="project-link__description">{{$detail}}</p>
+    </div>
+  </a>
+</div>

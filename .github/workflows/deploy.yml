@@ -1,0 +1,44 @@
+name: Deploy Blog
+
+# Controls when the workflow will run
+on:
+  push:
+    branches: [ main ]
+  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v3
+
+      - name: Build hugo app
+        run: |
+          sudo apt install -y hugo
+          hugo
+          cd public
+          zip -r /tmp/blog.zip .
+          cd ..
+      - shell: bash
+        env:
+          SSH_KEY: ${{ secrets.SSH_KEY }}
+        run: |
+          echo "$SSH_KEY" >> /tmp/ssh_key
+          chmod 600 /tmp/ssh_key
+          scp -i /tmp/ssh_key -o StrictHostKeyChecking=no /tmp/blog.zip deploy@novak.org:/tmp/blog.zip
+          ssh -i /tmp/ssh_key -o StrictHostKeyChecking=no -t deploy@novak.org << EOF
+            mkdir /tmp/blog
+            cd /tmp/blog
+            unzip /tmp/blog.zip
+            sudo systemctl stop nginx
+            sudo rm -rf /var/www/html
+            sudo mv /tmp/blog /var/www/html
+            sudo systemctl restart nginx
+          EOF

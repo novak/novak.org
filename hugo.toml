@@ -1,0 +1,78 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Novak'
+theme = 'hugo-coder'
+paginate = 10
+enableEmoji = true
+
+[params]
+author = "Michael Novak"
+description = "Michael Novak • Technologist"
+keywords = "blog,developer,personal,engineering,technology,software,programming,web,design,development,code,tech,computer,science,software,engineering,Michael,Novak"
+info = ["Technologist", "Software Engineer"]
+avatarURL = "images/avatar.jpg"
+dateFormat = "January 2, 2006"
+since = 2019
+rtl = false
+colorScheme = "auto"
+hideColorSchemeToggle = false
+faviconSVG = "images/favicon.svg"
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/novak/"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa-brands fa-x-twitter fa-2x"
+weight = 3
+url = "https://twitter.com/novak/"
+
+[[params.social]]
+name = "Mastodon"
+icon = "fa-brands fa-mastodon fa-2x"
+weight = 4
+url = "https://hachyderm.io/@novak"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 5
+url = "https://www.linkedin.com/in/michaelnovakjr/"
+
+[[params.social]]
+name = "Book Time"
+icon = "fa-regular fa-calendar-plus fa-2x"
+weight = 6
+url = "https://calendly.com/novakmichael/intro-meet-greet"
+
+[[params.social]]
+name = "RSS"
+icon = "fa-solid fa-rss fa-2x"
+weight = 7
+url = "https://novak.org/index.xml"
+rel = "alternate"
+type = "application/rss+xml"
+
+[[languages.en.menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[languages.en.menu.main]]
+name = "Blog"
+weight = 2
+url = "posts/"
+
+[[languages.en.menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
