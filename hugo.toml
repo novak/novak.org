@@ -9,7 +9,7 @@ enableEmoji = true
 author = "Michael Novak"
 description = "Michael Novak • Technologist"
 keywords = "blog,developer,personal,engineering,technology,software,programming,web,design,development,code,tech,computer,science,software,engineering,Michael,Novak"
-info = ["Technologist", "Software Engineer"]
+info = ["Technologist • Builder", "Software Engineer"]
 avatarURL = "images/avatar.jpg"
 dateFormat = "January 2, 2006"
 since = 2019
@@ -23,6 +23,10 @@ category = "categories"
 series = "series"
 tag = "tags"
 author = "authors"
+
+# If you want to use fathom(https://usefathom.com) for analytics, add this section
+[params.fathomAnalytics]
+siteID = "NSLNXVRE"
 
 [[params.social]]
 name = "Github"
@@ -53,14 +57,6 @@ name = "Book Time"
 icon = "fa-regular fa-calendar-plus fa-2x"
 weight = 6
 url = "https://calendly.com/novakmichael/intro-meet-greet"
-
-[[params.social]]
-name = "RSS"
-icon = "fa-solid fa-rss fa-2x"
-weight = 7
-url = "https://novak.org/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
 
 [[languages.en.menu.main]]
 name = "About"
