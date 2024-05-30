@@ -24,8 +24,8 @@ jobs:
           sudo snap install hugo
           cd $GITHUB_WORKSPACE
           hugo
-          cd public
           ls -la public
+          cd public
           zip -r /tmp/blog.zip .
           cd ..
       - shell: bash
