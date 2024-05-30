@@ -18,13 +18,14 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@main
+      - name: Checkout submodules
+        run: git submodule update --init --recursive
 
       - name: Build hugo app
         run: |
           sudo snap install hugo
           cd $GITHUB_WORKSPACE
           hugo
-          ls -la public
           cd public
           zip -r /tmp/blog.zip .
           cd ..
