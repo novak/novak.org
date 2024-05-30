@@ -25,6 +25,7 @@ jobs:
           cd $GITHUB_WORKSPACE
           hugo
           cd public
+          ls -la public
           zip -r /tmp/blog.zip .
           cd ..
       - shell: bash
