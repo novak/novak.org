@@ -21,7 +21,7 @@ jobs:
 
       - name: Build hugo app
         run: |
-          sudo apt install -y hugo
+          sudo snap install -y hugo
           cd $GITHUB_WORKSPACE
           hugo
           cd public
