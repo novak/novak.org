@@ -23,11 +23,11 @@ I am including the links above as I'll be citing quotations from them through th
 
 Let's start with one of the most direct claims from HISA that came out after the supposed thorough investigation that left them with confidence in what happened.
 
-    Lazarus said publicly that the idea this consisted simply of changing a horse number in a URL is “patently false,”
+> Lazarus said publicly that the idea this consisted simply of changing a horse number in a URL is “patently false,”
 
 This is the original quote from HISA on what happened, while the quote below is the most recent statement from the organization.
 
-    “What Dr. Gramm did after manually changing a URL once is what is at issue in this case and why HISA is pursuing charges against him,” Lazarus said in an additional statement provided Wednesday.
+> “What Dr. Gramm did after manually changing a URL once is what is at issue in this case and why HISA is pursuing charges against him,” Lazarus said in an additional statement provided Wednesday.
 
 This is a direct contradiction to the earlier statement. How was HISA so confident in their report and understanding of what happened only to completely walk back their claims that the URL change was patently false? In a situation like this material facts are critically important. If you want to confidently control the narrative on a situation and claim others are completely lying you'd better be sure you have all your facts straight.
 
@@ -37,18 +37,18 @@ This is core to the argument here on the scope and complexity of what was done. 
 
 ### The system warned access was not authorized
 
-    Lazarus also said the technology Gramm was using would have warned him multiple times that he wasn’t authorized to obtain the information.
-
-    “He made the active choice to bypass those warnings,” she said.
-    The records Gramm obtained didn’t come back in the same organized format a user would see when looking at an individual horse’s profile, Lazarus said. Instead, they came back as bulk data that had to be processed to be useful.
+> Lazarus also said the technology Gramm was using would have warned him multiple times that he wasn’t authorized to obtain the information.
+>
+> “He made the active choice to bypass those warnings,” she said.
+> The records Gramm obtained didn’t come back in the same organized format a user would see when looking at an individual horse’s profile, Lazarus said. Instead, they came back as bulk data that had to be processed to be useful.
 
 This statement is also something that did not come up during the initial press release or press conference. HISA makes no attempt at even specifying what "the technology" used is. Claude was not used to access the information, an AI agent did not go and pull all this information down for him. Claude was used to write code that would pull down this information. Once Claude had written the script to manage the browser session and open the URLs within the browser its job was done. From that point forward all that would have to be done was running the script to fetch data. 
 
 ### The HISA Portal Isn't Alcatraz
 
-    She said HISA had tried to balance security with making the Portal easy enough for racing participants to use.
-
-    “There was a decision to balance things out and to make it secure, but not … like Alcatraz because that would just make it impossible for us to have people use it,” Lazarus said.
+> She said HISA had tried to balance security with making the Portal easy enough for racing participants to use.
+>
+> “There was a decision to balance things out and to make it secure, but not … like Alcatraz because that would just make it impossible for us to have people use it,” Lazarus said.
 
 I honestly don't even know where to start with this quote. HISA is claiming that this information is so sensitive and having access to it is such a significant problem, and yet they felt the need to "balance things out" so that it is usable. The problem with this statement is that restricting access to these records is fundamentally a basic problem. You show a user a page that says they are not authorized to access this record and that's it. How does this make the software impossible to use? 
 
@@ -58,10 +58,10 @@ People like to use the analogy of a bank, well my bank website manages to make t
 
 ### We may never know the extent of the access to records
 
-    HISA eventually began tracking Gramm’s activity as investigators worked to determine what had happened, Lazarus said. According to Lazarus, Gramm stopped accessing the system after the past performances containing confidential veterinary information appeared on social media in June.
+> HISA eventually began tracking Gramm’s activity as investigators worked to determine what had happened, Lazarus said. According to Lazarus, Gramm stopped accessing the system after the past performances containing confidential veterinary information appeared on social media in June.
 
 This statement appears to me as an admission that the system did not have sufficient logging in place prior to the leaked PPs. If they began to track his activity only after the leak, that means his access along with everyone else's prior to the leak would have been completely undetected. This is also troubling because HISA claims they are confident he was the only one accessing this information. If they do not have previous logs from the system how can they be sure of that? There could have been any number of owners or trainers that gained benefit from having access to the portal.
 
-    HISA’s investigation included an independent forensic cybersecurity analysis by Arete, which, Lazarus said, found no evidence that anyone else had used the same method to improperly access confidential information.
+> HISA’s investigation included an independent forensic cybersecurity analysis by Arete, which, Lazarus said, found no evidence that anyone else had used the same method to improperly access confidential information.
 
 This quote also does not make it clear to what extent there was even information to investigate. If basic logging did not exist in the platform, how were investigators going to find anything? This blanket statement has absolutely no value unless there is a clear papertrail that has been in place from the beginning. This is something HISA could very easily make public, which could help remove any doubt with their statements.
