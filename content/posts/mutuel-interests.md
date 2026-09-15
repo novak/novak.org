@@ -11,6 +11,7 @@ categories = [
     "horse racing"
 ]
 series = ["Mutuel Interests"]
+series_order = 1
 +++
 
 The one topic in horse racing that never seems to go away is CAW (Computer Assisted Wagering) teams. The topic is complex and has been written about throughout the industry over the years. This series of blog posts is an attempt to explain this for non-technical horseplayers and discuss where the industry can go from here. Can this problem be solved? Have we passed a point of no return?

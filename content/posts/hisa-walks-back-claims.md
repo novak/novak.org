@@ -9,7 +9,6 @@ tags = [
 categories = [
     "horse racing"
 ]
-series = ["Horse Racing"]
 +++
 
 [Paulick Report: How He Did It](https://paulickreport.com/news/ray-s-paddock/how-he-did-it-marshall-gramms-actions-went-beyond-finding-a-security-flaw)

@@ -6,10 +6,6 @@ description = "A look back at what I shipped this year"
 tags = [
     "year in review"
 ]
-categories = [
-    "year in review"
-]
-series = ["Year In Review"]
 +++
 
 It has been a busy year. Next week is my last work week for the year, so I decided to summarize what I worked on this year.

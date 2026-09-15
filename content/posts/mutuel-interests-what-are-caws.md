@@ -11,6 +11,7 @@ categories = [
     "horse racing"
 ]
 series = ["Mutuel Interests"]
+series_order = 2
 +++
 
 Picture this. You are having a morning coffee and breakfast sitting at an outside table on Broadway in Saratoga. You have the racing form out and you are pouring over the day's races. You spot this amazing 8-1 horse that just cannot lose, you have no idea how this horse is 8-1 morning line. You take a look at the favorite, and you realize you found your play of the day. There's no better feeling than being able to spot a great value play. At the track there's 6 minutes to post and your pick is bouncing between 5-1 and 6-1. There's still value, but the horse is live. Under 2 minutes to post and you are looking at 3-1, lost some value but still can find a way to play it. They are in the gate and you lock in your bet. They're off and they are at the 1/4, you look at the refreshed odds and see 9-5. All that value wiped out, but you still cash the ticket. 

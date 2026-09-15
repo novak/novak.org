@@ -10,7 +10,6 @@ tags = [
 categories = [
     "horse racing"
 ]
-series = ["Horse Racing"]
 +++
 
 In recent years I built a stable management platform for horse racing owners and trainers named Backstretch. The goal of this product was to provide a modern platform for managing a racing stable. This included the ability for owners and trainers to see updates on horses within their stable, store records around training, billing and even vet records as well. This platform had the ability to handling invoicing for trainers, allowing them to not only create invoices easily but accept payments right on the platform. 

@@ -1,16 +1,15 @@
 +++ 
 title = "About Me" 
 description = "Michael Novak • About Me" 
-date = "2024-05-29" 
 aliases = ["about-me", "contact"] 
-author = "Michael Novak" 
+author = "Michael Novak"
+displayInMenu = true
+displayInList = false
 +++
 
-I have been working in technology for 20 years. Currently I spend my time working on my own software products, but I am also available for consulting work. My experience ranges from full-stack web development, mobile, databases and machine learning.
+I have been working in technology for 20 years. Currently I am working at Intuit as well as building my next software company, and I am available to consult on product or engineering. My experience ranges from full-stack web development, mobile, databases and machine learning.
 
-
---
-
+---
 
 My introduction to technology came during high school when I discovered I could program my TI-83 calculator. Once I discovered the power of computing and more specifically programming, I started diving into HTML on my desktop computer. My first attempts were nothing more than simple markup, but it allowed me to be expressive. 20 years ago with a purchase of a book titled PHP & MySQL, I took the next big step in my journey of building software. Equipped with that book and a Linux distro disc I set out to build creative projects. 20 years later, I am still on that journey. Software evolves over time and I have not stopped learning along the way. I found myself constantly in the bookstore's computer section browsing titles covering everything in technology. 
 
@@ -24,9 +23,9 @@ During my time at GroupMe, I had a side project I was working on titled GigBeat.
 
 I found myself working at a few more startups, I loved building concepts from scratch and trying to figure out where they go next. I realized with GigBeat that I really wanted to build products, not just technology. I wanted to spend my time bringing concepts to reality leaning on my ability to write code for many different platforms. I worked for Derby Jackpot helping bring their horse racing product to iPhones in time for the Triple Crown. This was my first real experience in horse racing and it was an awesome product to be working on. They built a great team at Derby Jackpot and I was proud to be part of it. I made my way back to Microsoft for a number of years working on the Outlook product. My 2019 year in review post captures some of the most challenging work at Microsoft[^4].
 
-After getting caught up in layoffs at Microsoft I decided I wanted to spend time trying to build my own products again. I had to fight the urge to work on music products, I strongly feel that music discovery has not seen its best days yet. I utimately decided to build software for the horse racing industry after a few conversations with friends active in the space. I started with Backstretch[^5], a platform for owners and trainers to manage their stable. Allowing owners to keep up on their stables and provide the ability for trainers to get paid faster. The product has been in beta now for a few months and has been receiving great feedback from early users. I teamed up with In The Money Media to build out a fun new contest platform for horse racing. This started completely as an experiment. We have worked on each iteration of the product as a result of the next experiment we were looking to test. This has been an incredibly fun way to build a product. Contest Jockey[^6] has run a few open public contests so far with some amazing feedback. The first contest was won by a player who has never participated in a contest before. This was one of the motivating factors behind building the product. We wanted to make contests more accessible and fun for more people.
+After getting caught up in layoffs at Microsoft I decided I wanted to spend time trying to build my own products again. I had to fight the urge to work on music products, I strongly feel that music discovery has not seen its best days yet. I utimately decided to build software for the horse racing industry after a few conversations with friends active in the space. I started with Backstretch[^5], a platform for owners and trainers to manage their stable. It allowed owners to keep up on their stables and gave trainers the ability to get paid faster. Early users gave great feedback during the beta, but the platform did not gain the traction it needed to cover its operating costs, so I have since sunset it. I teamed up with In The Money Media to build out a fun new contest platform for horse racing. This started completely as an experiment. We have worked on each iteration of the product as a result of the next experiment we were looking to test. This has been an incredibly fun way to build a product. Contest Jockey[^6] has run a few open public contests so far with some amazing feedback. The first contest was won by a player who has never participated in a contest before. This was one of the motivating factors behind building the product. We wanted to make contests more accessible and fun for more people.
 
-In addition to my own products, I am also available for consulting work. My availability can change often, but if you would like to work together feel free to contact me or setup a quick 15 minute intro chat.
+Today I work at Intuit while building my next software company. I am also available to consult on product or engineering. My availability can change often, but if you would like to work together feel free to contact me or set up a quick 15 minute intro chat.
 
 [^1]: App Makers Take Interest in Android [New York Times](https://www.nytimes.com/2010/10/25/technology/25android.html)
 [^2]: Google I/O 2012 - Playing with Patterns [YouTube](https://www.youtube.com/watch?v=8iUbr8RZKtg)

@@ -9,7 +9,6 @@ tags = [
 categories = [
     "horse racing"
 ]
-series = ["Horse Racing"]
 +++
 
 HISA (Horseracing Integrity and Safety Authority) is making some extremely excessive claims regarding Marshall Gramm's access to records maintained within the HISA Portal available to owners and trainers.
