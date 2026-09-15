@@ -1,0 +1,64 @@
+.post-description {
+    margin: 1rem 0 0;
+    color: var(--text-soft);
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.series {
+    margin: 0 0 2.5rem;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    background: var(--surface);
+}
+
+.series-label {
+    margin: 0 0 0.5rem;
+    color: var(--muted);
+    font-family: var(--font-ui);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.series ol {
+    margin: 0;
+    padding-left: 1.3em;
+}
+
+.series li {
+    margin: 0.2em 0;
+}
+
+.series [aria-current="page"] {
+    color: var(--muted);
+}
+
+.post .project-link__logo {
+    flex: none;
+    width: 100px;
+    height: 100px;
+    margin: 0 1.5rem 0 0;
+}
+
+.post .project-link__name,
+.post .project-link__description {
+    margin: 0;
+}
+
+.post .project-link__name {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.screenshot__image {
+    width: auto;
+}
+
+.home-headshot {
+    border-radius: 16px;
+}

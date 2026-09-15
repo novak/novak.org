@@ -1,8 +1,9 @@
 +++
 title = "Projects"
 slug = "projects"
-date = "2024-05-29"
 author = "Michael Novak"
+displayInMenu = true
+displayInList = false
 +++
 
 {{< project name="Backstretch" logo="/images/backstretch.png" link="/projects/backstretch" detail="Management platform for owners and trainers in horse racing" >}}

@@ -13,6 +13,7 @@ categories = [
     "horse racing"
 ]
 series = ["Mutuel Interests"]
+series_order = 3
 +++
 
 ### Computer Modeling

@@ -1,0 +1,16 @@
+{{ range first 1 (.GetTerms "series") }}
+  <nav class="series" aria-label="{{ .Title }} series">
+    <p class="series-label">Series · {{ .Title }}</p>
+    <ol>
+      {{ range sort .Pages "Params.series_order" }}
+        <li>
+          {{ if eq .Permalink $.Permalink }}
+            <span aria-current="page">{{ .Title | markdownify }}</span>
+          {{ else }}
+            <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ol>
+  </nav>
+{{ end }}
